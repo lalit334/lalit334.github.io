@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lalit Yadav | Data Analyst</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif;scroll-behavior:smooth}
+body{background:linear-gradient(135deg,#020617,#0f172a);color:#fff}
+nav{position:sticky;top:0;background:rgba(15,23,42,.95);display:flex;justify-content:space-between;align-items:center;padding:20px 60px;z-index:1000;box-shadow:0 2px 10px rgba(0,0,0,.4)}
+nav h2{color:#38bdf8}.nav-links a{color:#fff;text-decoration:none;margin:0 15px;transition:.3s}.nav-links a:hover{color:#38bdf8}
+section{padding:80px 10%;}
+.hero{display:flex;align-items:center;justify-content:space-between;gap:40px;min-height:90vh}
+.hero-text h1{font-size:55px}.hero-text h1 span{color:#38bdf8}.hero-text h3{font-size:28px;margin:10px 0;color:#94a3b8}.hero-text p{line-height:1.8;color:#cbd5e1}
+.btn{display:inline-block;margin-top:20px;padding:12px 24px;background:#38bdf8;color:#000;border-radius:30px;text-decoration:none;font-weight:bold;transition:.3s}.btn:hover{transform:scale(1.05)}
+.hero img{width:320px;height:320px;border-radius:50%;object-fit:cover;border:5px solid #38bdf8;box-shadow:0 0 30px #38bdf8}
+h2.section-title{text-align:center;font-size:40px;color:#38bdf8;margin-bottom:40px}
+/* Added text-decoration, color, and display:block here to ensure link cards look clean */
+.card{background:#1e293b;padding:25px;border-radius:20px;box-shadow:0 8px 25px rgba(0,0,0,.3);transition:.3s; text-decoration: none; color: #fff; display: block;}
+.card:hover{transform:translateY(-8px)}
+.skills-grid,.project-grid,.contact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.skill{text-align:center;padding:20px;background:#1e293b;border-radius:15px}.skill i{font-size:35px;color:#38bdf8;margin-bottom:10px}
+.project-grid .card h3{color:#38bdf8;margin-bottom:10px}
+.contact-grid .card{text-align:center}.contact-grid i{font-size:30px;color:#38bdf8;margin-bottom:10px}
+footer{text-align:center;padding:25px;background:#111827;color:#94a3b8}
+@media(max-width:768px){.hero{flex-direction:column;text-align:center}.hero-text h1{font-size:38px}nav{padding:20px}.nav-links{display:none}.hero img{width:220px;height:220px}}
+</style>
+</head>
+<body>
+<nav>
+<h2>Lalit Yadav</h2>
+<div class="nav-links">
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#projects">Projects</a>
+<a href="#education">Education</a>
+<a href="#contact">Contact</a>
+<a href="#certifications">Certifications</a>
+</div>
+</nav>
+
+<section class="hero">
+<div class="hero-text">
+<h1>Hi, I'm <span>Lalit Yadav</span></h1>
+<h3>Data Analyst</h3>
+<p>Results-driven B.Tech Computer Science student seeking a Data Analyst Internship to apply skills in SQL, Python, Excel, and data 
+visualization. Strong understanding of data cleaning, data analysis, and reporting with hands-on experience through academic mini projects. 
+Skilled in problem-solving, analytical thinking, and extracting meaningful insights from datasets. Eager to contribute to data-driven decision- 
+making while gaining practical industry experience in a collaborative environment.</p>
+<a href="#contact" class="btn">Hire Me</a>
+<a href="resume.pdf.pdf" class="btn">view Resume</a>
+</div>
+<div>
+<img src="profile.jpg.jpeg" alt="Lalit Yadav">
+</div>
+</section>
+
+<section id="about">
+<h2 class="section-title">About Me</h2>
+<div class="card">
+    I am a third-year B.Tech student in Computer Science and Engineering, specializing in AI & Machine Learning at Sanskriti University. As a passionate data enthusiast, I specialize in transforming raw data into actionable business insights. My technical foundation spans SQL, Excel, and Python—with hands-on experience using libraries like NumPy, Pandas, and Matplotlib for data manipulation and visualization.
+
+I enjoy tackling real-world problems, whether it's building predictive models like my Loan Approval System or structuring complex datasets. As a fresher, I am highly adaptable, eager to learn, and actively looking for entry-level opportunities and internships within the startup ecosystem where I can drive data-informed decisions and grow as a professional
+</div>
+</section>
+
+<section id="skills">
+<h2 class="section-title">Skills</h2>
+<div class="skills-grid">
+<div class="skill"><i class="fas fa-database"></i><h3>SQL</h3></div>
+<div class="skill"><i class="fab fa-python"></i><h3>Python</h3></div>
+<div class="skill"><i class="fas fa-file-excel"></i><h3>Excel</h3></div>
+<div class="skill"><i class="fas fa-chart-line"></i><h3>Data Visualization</h3></div>
+<div class="skill"><i class="fas fa-server"></i><h3>DBMS</h3></div>
+</div>
+</section>
+
+<section id="projects">
+<h2 class="section-title">Projects</h2>
+<div class="project-grid">
+<div class="card">
+<h3>Loan Approval Prediction System</h3>
+<p>Developed using SQL, Python, Excel, and Machine Learning. Cleaned datasets, analyzed financial factors, generated visualizations, and predicted loan approval eligibility.</p>
+</div>
+</div>
+
+<div style="text-align: center; margin-top: 40px;">
+<a href="https://github.com/lalit334" target="_blank" rel="noopener noreferrer" class="btn">
+<i class="fab fa-github" style="margin-right: 8px;"></i> More on GitHub
+</a>
+</div>
+</section>
+
+<section id="certifications">
+<h2 class="section-title">Certifications</h2>
+<!-- We can reuse your existing project-grid class for the layout -->
+<div class="project-grid">
+
+<!-- Certificate 1 -->
+<a href="https://www.linkedin.com/in/lalit-yadav-082341337/recent-activity/shares/" target="_blank" rel="noopener noreferrer" class="card" style="text-align: center;">
+<i class="fas fa-award" style="font-size: 40px; color: #38bdf8; margin-bottom: 15px;"></i>
+<h3>CHECK ALL CERTIFICATIONS</h3>
+<p style="color: #94a3b8; margin-top: 10px; font-size: 14px;">View Certificate on LinkedIn <i class="fas fa-external-link-alt" style="margin-left: 5px;"></i></p>
+</a>
+
+
+
+</div>
+</section>
+
+<section id="education">
+<h2 class="section-title">Education</h2>
+<div class="card">
+<h3>B.Tech in Computer Science & Engineering (AI & ML)</h3>
+<p>Sanskriti University, Mathura</p>
+<p>2023 – 2027 | CGPA: 7.53 / 10</p>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="section-title">Contact Me</h2>
+<div class="contact-grid">
+<a href="tel:+919571007411" class="card"><i class="fas fa-phone"></i><p>9571007411</p></a>
+<a href="mailto:ly5997847@gmail.com" class="card"><i class="fas fa-envelope"></i><p>ly5997847@gmail.com</p></a>
+<a href="https://linkedin.com/in/lalit-yadav-082341337" target="_blank" rel="noopener noreferrer" class="card"><i class="fab fa-linkedin"></i><p>linkedin.com/in/lalit-yadav-082341337</p></a>
+<a href="https://github.com/lalit334" target="_blank" rel="noopener noreferrer" class="card"><i class="fab fa-github"></i><p>github.com/lalit334</p></a>
+</div>
+</section>
+
+<footer>© 2026 Lalit Yadav | Data Analyst Portfolio</footer>
+</body>
+</html>
